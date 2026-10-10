@@ -1,1 +1,73 @@
+CERTIFICATE SIGNING REQUEST LAB REPORT
+======================================
+Sat Oct 10 04:06:41 PM EDT 2026
+Hostname: Ubu
+OpenSSL Version:
+OpenSSL 3.6.4 25 Aug 2026 (Library: OpenSSL 3.6.2 7 Apr 2026)
 
+1. GENERATED FILES
+-rw-rw-r-- 1 yup yup 1.1K Oct  8 20:42 server.csr
+-rw------- 1 yup yup 1.7K Oct  8 20:42 server.key
+
+2. CSR SUBJECT
+subject=C=US, ST=Georgia, L=Atlanta, O=CyberFiber, OU=IT, CN=ubuntu.cybergregory.lab
+
+3. CSR SIGNATURE VALIDATION
+Certificate request self-signature verify OK
+
+4. PUBLIC KEY MATCH VERIFICATION
+Private key public component hash: 9461f654d92d24c8fb4265f1f5f68ba38eb7a26f77624cb81e8bf83c9a140837
+CSR public key hash: 9461f654d92d24c8fb4265f1f5f68ba38eb7a26f77624cb81e8bf83c9a140837
+RESULT: PASS - Public keys match
+
+5. CSR DETAILS
+Certificate Request:
+    Data:
+        Version: 1 (0x0)
+        Subject: C=US, ST=Georgia, L=Atlanta, O=CyberFiber, OU=IT, CN=ubuntu.cybergregory.lab
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:89:cb:91:0a:6a:00:0a:81:30:0a:62:1d:13:ec:
+                    4b:f9:e6:ea:52:fb:3d:7b:a6:5a:88:13:e3:84:3c:
+                    87:72:1f:56:6b:70:b4:30:ee:23:99:c0:42:7a:11:
+                    c2:e0:f0:6d:97:89:b9:4f:70:f4:31:aa:43:e3:52:
+                    c6:53:cc:a6:61:4e:dc:5f:44:3f:13:3c:fa:62:7f:
+                    cd:d7:c0:01:54:ad:25:5b:dc:46:01:1e:35:42:5f:
+                    bd:c3:c4:38:d2:11:1b:a5:a9:df:88:d7:0b:da:92:
+                    e8:ee:27:1a:bf:14:9b:25:66:6f:14:99:85:f7:e1:
+                    2b:19:48:36:ab:e8:bf:5f:29:a5:57:57:88:0f:a5:
+                    d7:c4:11:63:a2:f9:76:4e:57:99:16:e0:c2:02:83:
+                    e4:b3:75:8c:45:df:93:ca:56:64:44:d0:3e:f5:33:
+                    52:24:6d:59:48:65:ca:2d:d6:fd:e5:fc:c7:f8:c7:
+                    3b:cc:c9:43:33:03:9d:a8:ef:77:b9:a9:18:13:66:
+                    3b:61:0a:9d:5d:3e:5e:be:0a:c9:58:eb:af:f0:64:
+                    1b:e8:fb:ce:b9:58:33:cd:dd:74:90:2d:89:98:ba:
+                    d0:90:ae:83:f5:a5:e4:12:61:2a:22:63:58:40:55:
+                    ca:dc:6c:0a:09:08:1e:8a:1b:ce:fb:37:ac:4e:0f:
+                    c1:a1
+                Exponent: 65537 (0x10001)
+        Attributes:
+            Requested Extensions:
+                X509v3 Subject Alternative Name: 
+                    DNS:ubuntu.cybergregory.lab, DNS:cybergregory
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        27:56:06:c2:65:0d:f8:18:e9:3f:1c:1c:8e:33:74:4d:da:7b:
+        47:54:de:6f:c7:d3:0c:99:41:fa:f7:07:e0:d5:1d:be:bd:b1:
+        05:6e:c1:29:a5:3f:ae:f2:ec:9d:f6:dd:58:f5:7d:1b:af:14:
+        dc:15:35:fa:54:27:4a:25:b7:94:7e:97:01:3e:3f:e5:2c:2f:
+        da:c9:bb:d9:65:be:bd:38:28:db:d9:fc:e0:3f:5d:f1:63:09:
+        0e:e5:ea:68:3b:94:70:92:ee:34:15:36:35:0d:34:7a:83:7b:
+        58:ed:d7:2c:dd:2d:e1:14:5b:ec:8e:a7:c4:cf:d1:9b:74:10:
+        8a:ef:db:fd:6a:29:d8:e2:32:cf:48:a2:0c:ad:1a:fa:70:3a:
+        ee:50:84:db:cc:a9:ed:81:af:d6:4f:f1:25:d9:b7:c3:10:3f:
+        1d:76:0e:53:08:ae:b4:2f:5e:2f:ec:5d:fe:a1:fc:b2:1c:ee:
+        98:e1:0f:62:8a:30:3f:a8:74:e1:e1:63:31:10:99:9b:0d:2a:
+        d3:62:95:17:1f:c8:ea:82:17:b5:26:92:ba:b4:79:21:0a:19:
+        83:2d:11:76:89:c1:58:3f:6d:f4:c9:c8:12:79:18:85:a7:cd:
+        74:3e:1e:18:ea:91:cc:35:7d:9f:02:9a:08:77:e0:fd:65:c6:
+        76:ad:a3:ba
+
+END OF REPORT
